@@ -2,6 +2,7 @@ import '../css/app.css';
 import './bootstrap';
 import './assets/styles/index.css';
 import './assets/styles/tailwind.css';
+
 import.meta.glob([
   './assets/img/**',
 ]);
