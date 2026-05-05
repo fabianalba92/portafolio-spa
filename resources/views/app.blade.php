@@ -15,7 +15,7 @@
         <!-- Scripts -->
         @routes
         <!-- Reemplazo manual de Vite -->
-        <link rel="stylesheet" href="{{ asset('build/assets/app-sm6wopKf.css') }}">
+         <link rel="stylesheet" href="{{ asset('build/assets/app-sm6wopKf.css') }}">
         <script type="module" src="{{ asset('build/assets/app-DWKkeRo2.js') }}"></script>
         @inertiaHead
     </head>
