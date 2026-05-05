@@ -14,7 +14,9 @@
 
         <!-- Scripts -->
         @routes
-        @vite(['resources/css/app.css', 'resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
+        <!-- Reemplazo manual de Vite -->
+        <link rel="stylesheet" href="/build/assets/app-sm6wopKf.css">
+        <script type="module" src="/build/assets/app-DWKkeRo2.js"></script>
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
