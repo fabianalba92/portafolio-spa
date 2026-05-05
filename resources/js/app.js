@@ -1,7 +1,7 @@
 import '../css/app.css';
 import './bootstrap';
-import '../js/assets/styles/index.css';
-import '../js/assets/styles/tailwind.css';
+import './assets/styles/index.css';
+import './assets/styles/tailwind.css';
 import.meta.glob([
   './assets/img/**',
 ]);
