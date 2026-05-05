@@ -1,9 +1,9 @@
 import '../css/app.css';
 import './bootstrap';
-import '../js/Assets/styles/index.css';
-import '../js/Assets/styles/tailwind.css';
+import '../js/assets/styles/index.css';
+import '../js/assets/styles/tailwind.css';
 import.meta.glob([
-  './Assets/img/**',
+  './assets/img/**',
 ]);
 
 import { createInertiaApp } from '@inertiajs/vue3';
