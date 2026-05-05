@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style-type: disc;
+}
+
+.burguer{
+  width: 10%;
+  float: right;
+}
+
+#burguer:active{
+  transform: translateY(20px); /* Mueve el botón hacia abajo */
+  border-bottom: 0px solid; /* Elimina la sombra para el efecto */
+  
+}
+/*MENU*/
+
+/* MÓVIL (por defecto) */
+.navbar-menu {
+  opacity: 0;
+  visibility: hidden; /* Sustituye a display: none */
+  max-height: 0;      /* Colapsa el espacio para que no estorbe */
+  overflow: hidden;   /* Asegura que el contenido no se vea */
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.open {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease;
+  max-height: 500px;  /* Pon un valor mayor a la altura real de tu menú */
+  transform: translateY(0); /* Ajustado a 0 para que se mueva al abrir */
+  pointer-events: auto;
+}
+
+/* DESKTOP (lg en adelante) */
+@media (min-width: 1024px) {
+  .navbar-menu {
+    opacity: 1 !important;
+    visibility: visible !important;
+    max-height: none !important;
+    transform: none !important;
+    pointer-events: auto !important;
+    
+    /* ESTO ES LO QUE FALTA: */
+    display: flex !important;      /* Activa flexbox */
+    justify-content: flex-end;    /* Alinea el contenido a la derecha */
+    width: 100%;                  /* Asegura que ocupe el ancho para poder alinear */
+  }
+}
+
+
