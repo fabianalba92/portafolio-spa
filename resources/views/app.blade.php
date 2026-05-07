@@ -15,8 +15,7 @@
         <!-- Scripts -->
         @routes
         <!-- Reemplazo manual de Vite -->
-        <link rel="stylesheet" href="{{ asset('build/assets/app-DtwgYJ8u.css') }}">
-        <script type="module" src="/build/assets/app-dB45Caa8.js"></script>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
