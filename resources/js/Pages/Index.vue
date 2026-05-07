@@ -84,14 +84,11 @@
             <br>
             <a href="" class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150" target="_blank"> Ver proyecto </a>
           </div>
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-32">
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto mt-22">
             <div
               class="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0"
             >
-              <img alt="..." src="/build/assets/profile-6zoiRWAE.jpg" class="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3">
-              <img alt="..." src="/build/assets/component-info-2-CzPaH5LV.png" class="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px">
-              <img alt="..." src="/build/assets/component-menu-DbFVwBH_.png" class="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px">
-              <img alt="..." src="/build/assets/component-btn-pink-6HjkwmMw.png" class="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px">
+              <img alt="..." src="/build/assets/landing-BHHb9s_a.jpg" class="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-10-px">
             </div>
           </div>
         </div>
