@@ -88,36 +88,10 @@
             <div
               class="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0"
             >
-              <img
-                alt="..."
-                src="/build/assets/component-btn.png"
-                class="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
-              />
-              <img
-                alt="..."
-                src="/build/assets/component-profile-card.png"
-                class="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
-              />
-              <img
-                alt="..."
-                src="/build/assets/component-info-card-CHC2upSp.png"
-                class="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
-              />
-              <img
-                alt="..."
-                :src="componentInfo2"
-                class="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px"
-              />
-              <img
-                alt="..."
-                :src="componentMenu"
-                class="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
-              />
-              <img
-                alt="..."
-                :src="componentBtnPink"
-                class="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px"
-              />
+              <img alt="..." src="/build/assets/profile-6zoiRWAE.jpg" class="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3">
+              <img alt="..." src="/build/assets/component-info-2-CzPaH5LV.png" class="w-full align-middle rounded-lg absolute shadow-2xl max-w-200-px -left-50-px top-25-px">
+              <img alt="..." src="/build/assets/component-menu-DbFVwBH_.png" class="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px">
+              <img alt="..." src="/build/assets/component-btn-pink-6HjkwmMw.png" class="w-full align-middle rounded absolute shadow-xl max-w-120-px left-195-px top-95-px">
             </div>
           </div>
         </div>
@@ -408,10 +382,6 @@
 <script>
 import IndexNavbar from "../Components/Navbars/IndexNavbar.vue";
 
-import componentInfo2 from "@/assets/img/component-info-2.png";
-import componentMenu from "@/assets/img/component-menu.png";
-import componentBtnPink from "@/assets/img/component-btn-pink.png";
-import documentation from "@/assets/img/documentation.png";
 import login from "@/assets/img/login.jpg";
 import profile from "@/assets/img/profile.jpg";
 import landing from "@/assets/img/landing.jpg";
@@ -419,10 +389,6 @@ import landing from "@/assets/img/landing.jpg";
 export default {
   data() {
     return {
-      componentInfo2,
-      componentMenu,
-      componentBtnPink,
-      documentation,
       login,
       profile,
       landing,
