@@ -74,7 +74,7 @@
               <img src="/img/openproject.svg" class="w-full h-auto">
             </div>
             <h3 class="text-3xl mb-2 font-semibold leading-normal">
-              PROYECTO SPA Portfolio Web
+              PROYECTO SPA Portafolio Web
             </h3>
             <p
               class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
@@ -90,17 +90,17 @@
             >
               <img
                 alt="..."
-                :src="componentBtn"
+                src="/build/assets/component-btn.png"
                 class="w-full align-middle rounded absolute shadow-lg max-w-100-px left-145-px -top-29-px z-3"
               />
               <img
                 alt="..."
-                :src="componentProfileCard"
+                src="/build/assets/component-profile-card.png"
                 class="w-full align-middle rounded-lg absolute shadow-lg max-w-210-px left-260-px -top-160-px"
               />
               <img
                 alt="..."
-                :src="componentInfoCard"
+                src="/build/assets/component-info-card-CHC2upSp.png"
                 class="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-40-px -top-225-px z-2"
               />
               <img
@@ -407,12 +407,7 @@
 </template>
 <script>
 import IndexNavbar from "../Components/Navbars/IndexNavbar.vue";
-//import FooterComponent from "../Components/Footers/Footer.vue";
 
-import patternVue from "@/assets/img/pattern_vue.png";
-import componentBtn from "@/assets/img/component-btn.png";
-import componentProfileCard from "@/assets/img/component-profile-card.png";
-import componentInfoCard from "@/assets/img/component-info-card.png";
 import componentInfo2 from "@/assets/img/component-info-2.png";
 import componentMenu from "@/assets/img/component-menu.png";
 import componentBtnPink from "@/assets/img/component-btn-pink.png";
@@ -424,10 +419,6 @@ import landing from "@/assets/img/landing.jpg";
 export default {
   data() {
     return {
-      patternVue,
-      componentBtn,
-      componentProfileCard,
-      componentInfoCard,
       componentInfo2,
       componentMenu,
       componentBtnPink,
